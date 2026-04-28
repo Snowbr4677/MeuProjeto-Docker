@@ -16,6 +16,6 @@ if ($conn->connect_error) {
 
 }
 
-echo "Conectado ao banco!";
+echo "Conectado ao banco yeaah!";
 
 ?>
