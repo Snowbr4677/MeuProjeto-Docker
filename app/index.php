@@ -1,12 +1,12 @@
 <?php
-echo "<h1>Docker funcionando</h1>";
+echo "<h1>Docker funcionando aa</h1>";
 $host = 'db';
 
 $user = 'root';
 
 $pass = '1234';
 
-$db = 'meubanco';
+$db = 'dbpokedex';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -16,6 +16,6 @@ if ($conn->connect_error) {
 
 }
 
-echo "Conectado ao banco yeaah!";
+echo "Conectado ao banco yea!";
 
 ?>
